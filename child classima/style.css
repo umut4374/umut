@@ -1,0 +1,86 @@
+/*
+Theme Name: Classima Child
+Template: classima
+Description: Classima temasına özgü özelleştirmeler içeren bir çocuk tema
+Version: 1.0
+*/
+:root {
+    --sui-font-sans-serif: "SHBGroteskLegacy", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --sui-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --sui-root-font-size: 14px;
+    --sui-body-font-family: var(--sui-font-sans-serif);
+    --sui-body-font-size: 1rem;
+    --sui-body-color: #111214;
+    --sui-body-bg: #ffffff;
+    --sui-primary: #1064bc;
+    --sui-secondary: #f4f4f4;
+    /* Diğer gerekli değişkenleri buraya ekleyin */
+}
+.mean-bar {
+    font-family: var(--sui-font-sans-serif);
+    letter-spacing: 0.01em;
+    font-size: var(--sui-root-font-size);
+    color: var(--sui-body-color);
+    background-color: var(--sui-body-bg);
+    height: 58px;
+    line-height: normal;
+    width: 100%;
+    max-width: 1115px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Daha fazla stil ekleyin */
+}
+.mean-bar .icon {
+    color: var(--sui-primary);
+    font-size: 1.5em;
+}
+
+.mean-bar .nav-link {
+    color: var(--sui-body-color);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+.mean-bar .nav-link:hover {
+    color: var(--sui-primary);
+}
+
+
+/* Tüm ekran boyutları için */
+.header-btn.header-menu-btn.header-menu-btn-mob {
+    background-color: #489af1 !important;
+    color: #fff !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2) !important;
+    transition: background-color 0.3s ease, transform 0.3s ease !important;
+}
+
+.header-btn.header-menu-btn.header-menu-btn-mob:hover {
+    background-color: #2980b9 !important;
+    transform: scale(1.05) !important;
+}
+
+.header-btn {
+    background-color: #489af1 !important;
+    color: #fff !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2) !important;
+    transition: background-color 0.3s ease, transform 0.3s ease !important;
+}
+
+.header-btn:hover {
+    background-color: #2980b9 !important;
+    transform: scale(1.05) !important;
+}

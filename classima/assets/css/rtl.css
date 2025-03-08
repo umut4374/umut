@@ -1,0 +1,319 @@
+/*-------------------------------------
+#. General
+---------------------------------------*/
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+.main-header .main-navigation-area .main-navigation ul li ul.sub-menu li.menu-item-has-children::after {
+    content: "\f104";
+}
+
+.main-header .main-navigation-area .main-navigation ul li.mega-menu > ul.sub-menu li::after {
+    content: '';
+}
+
+.mean-container a.meanmenu-reveal {
+    left: 0 !important;
+    right: auto !important;
+}
+
+.main-breadcrumb ul li::after {
+    content: "\f104";
+}
+
+.pagination-area .fa-angle-double-right::before {
+    content: "\f100";
+}
+
+.pagination-area .fa-angle-double-left::before {
+    content: "\f101";
+}
+
+.sidebar-widget-area .widget ul li::before {
+    content: "\f104";
+}
+
+.owl-wrap .fa-angle-left:before {
+    content: "\f105";
+}
+
+.owl-wrap .fa-angle-right:before {
+    content: "\f104";
+}
+
+.rt-el-testimonial-nav .swiper-button-prev {
+    right: auto;
+    left: 0;
+}
+
+.rt-el-listing-cat-slider .swiper-button-prev {
+    right: auto;
+}
+
+.rt-el-listing-cat-slider:hover .swiper-button-prev {
+    right: auto !important;
+    left: -16px;
+}
+
+.rt-el-listing-cat-slider:hover .swiper-button-next {
+    left: auto;
+    right: -16px;
+}
+
+/*-------------------------------------
+#. Listing
+---------------------------------------*/
+.classima-listing-search-form.rtcl-search-inline-form .rtcl-search-input-button {
+    text-align: right;
+}
+
+.sidebar-widget-area .rtcl-widget-filter-class .panel-block .rtcl-filter-form .ui-accordion-item .ui-accordion-icon {
+    float: left;
+}
+
+.sidebar-widget-area .rtcl-widget-filter-class .panel-block .ui-accordion-item .ui-accordion-content .filter-list img {
+    margin-right: 0;
+}
+
+.sidebar-widget-area .rtcl-widget-filter-class .panel-block ul.filter-list li.has-sub .arrow {
+    right: inherit;
+    left: 0;
+}
+
+.sidebar-widget-area .rtcl-widget-filter-class .panel-block .ui-accordion-item .ui-accordion-content .filter-list li .sub-list li a:before {
+    content: '\f104';
+}
+
+.sidebar-widget-area .rtcl-widget-filter-class .panel-block .ui-accordion-item .ui-accordion-content .filter-list .rtcl-icon {
+    margin-right: 0;
+}
+
+.sidebar-widget-area .rtcl-widget-filter-class .panel-block .rtcl-filter-form .ui-link-tree-item .ui-checkbox {
+    margin-right: 0;
+    margin-left: 6.4px;
+}
+
+.sidebar-widget-area .rtcl-widget-filter-class .panel-block ul.ui-link-tree li.is-opener span i {
+    margin-right: 0;
+}
+
+#content .listing-grid-each.featured-listing .rtin-thumb::after {
+    -webkit-clip-path: polygon(100% 0, 0 0, 100% 100%);
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+
+#content .listing-grid-each-3 .rtin-item .rtin-thumb .rtin-price {
+    padding: 5px 10px 5px 25px;
+    right: 0;
+    left: auto;
+}
+
+#content .rtcl-list-view .listing-list-each.featured-listing .rtin-thumb::after {
+    -webkit-clip-path: polygon(100% 0, 0 0, 100% 100%);
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+
+@media screen and (min-width: 1200px) {
+    #content .rtcl-list-view .listing-list-each-3 .rtin-item .rtin-content .rtin-price {
+        clip-path: polygon(0 0, 100% 0, calc( 100% - 25px ) 50%, 100% 100%, 0 100%);
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    #content .rtcl-list-view .listing-list-each-3 .rtin-item .rtin-content .rtin-price {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 20px 50%);
+    }
+}
+
+.classima-listing-single .classima-single-details .rtin-specs .rtin-spec-items li::before {
+    content: "\f104";
+}
+
+.classima-listing-single .classima-single-details-2 .rtin-price {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 25px 50%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 25px 50%);
+}
+
+.classima-form .rtcl-icon-angle-right::before {
+    content: "\E892";
+}
+
+#content .listing-grid-each-7 .rtin-item .rtin-thumb .rtin-price {
+    padding-left: 25px;
+    padding-right: 10px;
+    left: auto;
+    right: 0;
+}
+
+#rtcl-compare-wrap .rtcl-compare-item img {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+#content .listing-grid-each-8 .rtin-item .rtin-thumb .rtin-featured-ad {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 15px 50%);
+}
+
+#content .listing-grid-each .rtin-item .rtin-thumb .rtin-type {
+    left: auto;
+    right: 0;
+    padding: 5px 10px 5px 25px;
+}
+
+.rtcl-listing-badge-wrap span.badge {
+    margin-right: 0;
+    margin-left: 4px;
+}
+
+/*-------------------------------------
+#. Single Listing
+---------------------------------------*/
+
+.classima-listing-single .classima-single-details .single-listing-meta-wrap .single-listing-meta li {
+    display: inline-block;
+}
+
+.classima-store-single .classima-store-info .rtin-phone .numbers,
+.classified-seller-info .rtin-box .rtin-phone .rtcl-contact-reveal-wrapper .numbers,
+.classified-seller-info .rtin-box .rtin-phone .numbers {
+    position: relative;
+    padding-right: 25px;
+}
+
+.classima-store-single .classima-store-info .rtin-phone .numbers:before,
+.classified-seller-info .rtin-box .rtin-phone .rtcl-contact-reveal-wrapper .numbers a:first-child::before,
+.classified-seller-info .rtin-box .rtin-phone .numbers:before {
+    position: absolute;
+    right: 0;
+}
+
+.classima-store-single .rtin-banner-wrap .rtin-banner-content .rtin-store-title-area .rtin-title-meta li {
+    display: inline-block;
+}
+
+/*-------------------------------------
+#. Listing Form
+---------------------------------------*/
+
+.rtcl-bhs .rtcl-day-actions .form-check-input {
+    left: auto;
+    right: 0.1rem;
+}
+
+#rtcl-bhs-holder input#rtcl-active-bhs,
+#rtcl-bhs-holder input#rtcl-active-special-bhs {
+    left: auto;
+}
+
+.phone-row .selected-country-flag {
+    left: auto;
+}
+
+.phone-row .selected-country-flag .arrow-sign {
+    left: auto;
+    right: -12px;
+}
+
+#rtcl-post-form #rtcl-verified-phone.verification-form-control,
+#rtcl-post-form #rtcl-phone.verification-form-control,
+.rtcl-EditAccountForm .phone-row #rtcl-phone,
+.rtcl-EditAccountForm .phone-row #rtcl-verified-phone.verification-form-control,
+#rtcl-reg-phone {
+    padding-left: initial;
+    padding-right: 40px;
+}
+
+/*-------------------------------------
+#. My Account
+---------------------------------------*/
+
+html[dir=rtl] body.rtcl-account.page-template-default #rtcl-store-managers-content .rtcl-store-manager-action {
+    left: 0;
+}
+
+html[dir=rtl] .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-my-listing-table td {
+    text-align: initial;
+}
+
+html[dir=rtl] .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-my-listing-table th:nth-child(5),
+html[dir=rtl] .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-my-listing-table th:last-child,
+html[dir=rtl] .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-my-listing-table td:nth-child(5),
+html[dir=rtl] .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-my-listing-table td:last-child {
+    text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+    html[dir=rtl] .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-my-listing-table td:nth-child(5),
+    html[dir=rtl] .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-my-listing-table td:last-child {
+        text-align: initial;
+    }
+    html[dir=rtl] .rtcl-MyAccount-wrap .rtcl-MyAccount-content .rtcl-my-listing-table td a.listing-title {
+        padding-left: 30px;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    html[dir=rtl] body.rtcl-account.page-template-default .rtcl-MyAccount-mobile-navbar > h4 {
+        order: inherit;
+    }
+    .classima-MyAccount-open-menu {
+        margin-right: auto;
+        margin-left: 20px;
+    }
+    body.rtcl-account .rtcl-MyAccount-mobile-navbar .rtcl-MyAccount-navigation ul li:before {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+    }
+    .rtcl-store-manager .rtcl-store-manager-remove {
+        right: auto;
+        left: 20px;
+    }
+}
+
+/*-------------------------------------
+#. Elementor
+---------------------------------------*/
+.rt-el-listing-cat-box .rtin-item .rtin-sub-cats a::before {
+    content: "\f104";
+}
+
+.classima-list-1 li::before {
+    content: '\f177';
+}
+
+.elementor-widget .widget.rtcl-widget-filter-class .panel-block .rtcl-filter-form .ui-accordion-item ul.filter-list li.has-sub .arrow {
+    right: auto;
+}
+
+.elementor-widget .widget.rtcl-widget-filter-class .panel-block .rtcl-filter-form .ui-accordion-item ul.filter-list li.has-sub ul.sub-list li a:before {
+    content: "\f104";
+}
+
+.rtcl-widget-filter-class .panel-block ul.filter-list > li:not(.is-parent) a:before {
+    display: none;
+}
+
+.classima-listing-search-form .rtcl-search-input-location:before,
+.classima-listing-search-form .rtcl-search-input-category:before {
+    float: right;
+}
+
+#content .listing-grid-each-8 .rtin-item .rtin-thumb .rtin-type {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 15px 50%);
+}
+
+.rt-listing-cat-list-2 .sidebar-el-category__arrow {
+    transform: rotate(180deg);
+}
+
+/*-------------------------------------
+#. Booking
+---------------------------------------*/
+
+.booking-listing-title span {
+    margin-left: auto;
+    margin-right: 10px;
+}
